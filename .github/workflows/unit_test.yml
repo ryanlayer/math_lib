@@ -6,7 +6,7 @@ on:
 
 jobs:
   run_unit_test:
-    runs-on: ubuntu-latest
+    runs-os: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - run: python test/unit/test_math_lib.py
