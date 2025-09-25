@@ -2,11 +2,13 @@ name: Unit Tests
 
 on:
   push:
+    branches: [main]
   pull_request:
+    branches: [main]
 
 jobs:
   run_unit_test:
-    runs-os: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - run: python test/unit/test_math_lib.py
