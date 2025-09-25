@@ -10,4 +10,7 @@ def prod(a, b):
     return a * b
 
 def div(a, b):
-    return a / b
+    try:
+        return a / b
+    except ZeroDivisionError:
+        sys.exit(1)
