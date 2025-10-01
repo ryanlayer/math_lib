@@ -1,4 +1,4 @@
-name:
+name: math_lib
 channels:
   - bioconda
   - conda-forge
