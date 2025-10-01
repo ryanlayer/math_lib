@@ -1,4 +1,4 @@
-name: swe4s
+name:
 channels:
   - bioconda
   - conda-forge
